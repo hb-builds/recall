@@ -1,0 +1,668 @@
+[
+  {
+    "name": "Mathematics",
+    "description": "Mathematics basics and advanced topics",
+    "chapters": [
+      {
+        "name": "Algebra",
+        "description": "Solve equations and manipulate expressions",
+        "quizzes": [
+          {
+            "title": "Linear Equations 101",
+            "scheduled_at": null,
+            "duration_min": 10,
+            "questions": [
+              {
+                "statement": "2x + 3 = 7, solve for x",
+                "options": ["1", "2", "3", "4"],
+                "correct_option": 2
+              },
+              {
+                "statement": "x/2 = 5, x = ?",
+                "options": ["2", "5", "10", "15"],
+                "correct_option": 3
+              },
+              {
+                "statement": "3x = 12, x = ?",
+                "options": ["2", "3", "4", "6"],
+                "correct_option": 3
+              }
+            ]
+          },
+          {
+            "title": "Polynomials Basics",
+            "scheduled_at": null,
+            "duration_min": 15,
+            "questions": [
+              {
+                "statement": "(x+2)(x-3) expands to?",
+                "options": ["x^2-x-6", "x^2-x+6", "x^2+5x-6", "x^2-5x+6"],
+                "correct_option": 1
+              },
+              {
+                "statement": "Degree of 4x^3 + 2x^2?",
+                "options": ["2", "3", "4", "5"],
+                "correct_option": 2
+              },
+              {
+                "statement": "Coefficient of x in 6x + 7?",
+                "options": ["6", "7", "13", "1"],
+                "correct_option": 1
+              }
+            ]
+          },
+          {
+            "title": "Quadratic Equations",
+            "scheduled_at": null,
+            "duration_min": 20,
+            "questions": [
+              {
+                "statement": "Roots of x^2 - 5x + 6 = 0?",
+                "options": ["2 & 3", "1 & 6", "3 & 6", "−2 & −3"],
+                "correct_option": 1
+              },
+              {
+                "statement": "Discriminant of x^2 + 4x + 4?",
+                "options": ["0", "4", "8", "16"],
+                "correct_option": 1
+              },
+              {
+                "statement": "Vertex form of x^2 − 4x + 3?",
+                "options": ["(x−2)^2 − 1", "(x+2)^2 + 1", "(x−1)^2 + 2", "(x+1)^2 − 2"],
+                "correct_option": 1
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Geometry",
+        "description": "Shapes, sizes, and relative positions",
+        "quizzes": [
+          {
+            "title": "Triangles",
+            "scheduled_at": null,
+            "duration_min": 10,
+            "questions": [
+              {
+                "statement": "Sum of angles in a triangle?",
+                "options": ["90", "180", "270", "360"],
+                "correct_option": 2
+              },
+              {
+                "statement": "Equilateral triangle angles?",
+                "options": ["30,30,120","60,60,60","45,45,90","90,45,45"],
+                "correct_option": 2
+              },
+              {
+                "statement": "Right triangle has one angle of?",
+                "options": ["45","60","90","120"],
+                "correct_option": 3
+              }
+            ]
+          },
+          {
+            "title": "Circles",
+            "scheduled_at": null,
+            "duration_min": 12,
+            "questions": [
+              {
+                "statement": "π approx equals?",
+                "options": ["2.14","3.14","4.14","5.14"],
+                "correct_option": 2
+              },
+              {
+                "statement": "Diameter = 2 × ?",
+                "options": ["radius","circumference","area","pi"],
+                "correct_option": 1
+              },
+              {
+                "statement": "Area formula of a circle?",
+                "options": ["πr","2πr","πr²","r²"],
+                "correct_option": 3
+              }
+            ]
+          },
+          {
+            "title": "Calculus Introduction",
+            "scheduled_at": null,
+            "duration_min": 25,
+            "questions": [
+              {
+                "statement": "Derivative of x^2?",
+                "options": ["x","2x","x^2","2"],
+                "correct_option": 2
+              },
+              {
+                "statement": "Integral of 2x dx?",
+                "options": ["x^2 + C","2x + C","x + C","x^2/2 + C"],
+                "correct_option": 1
+              },
+              {
+                "statement": "Slope of y = 3x + 1 is?",
+                "options": ["1","2","3","4"],
+                "correct_option": 3
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Calculus",
+        "description": "Limits, derivatives, integrals",
+        "quizzes": [
+          {
+            "title": "Limits Basics",
+            "scheduled_at": null,
+            "duration_min": 20,
+            "questions": [
+              {
+                "statement": "Limit of (x^2−1)/(x−1) as x→1?",
+                "options": ["0","1","2","∞"],
+                "correct_option": 3
+              },
+              {
+                "statement": "Limit of sin(x)/x as x→0?",
+                "options": ["0","1","x","∞"],
+                "correct_option": 2
+              },
+              {
+                "statement": "Limit of 1/x as x→∞?",
+                "options": ["0","1","∞","−∞"],
+                "correct_option": 1
+              }
+            ]
+          },
+          {
+            "title": "Derivatives Advanced",
+            "scheduled_at": null,
+            "duration_min": 25,
+            "questions": [
+              {
+                "statement": "Derivative of e^x?",
+                "options": ["e^x","xe^(x−1)","e","x e^x"],
+                "correct_option": 1
+              },
+              {
+                "statement": "Derivative of ln(x)?",
+                "options": ["1/x","x","ln(x)","−1/x"],
+                "correct_option": 1
+              },
+              {
+                "statement": "d/dx [sin(x)] is?",
+                "options": ["cos(x)","−cos(x)","sin(x)","−sin(x)"],
+                "correct_option": 1
+              }
+            ]
+          },
+          {
+            "title": "Integrals Advanced",
+            "scheduled_at": null,
+            "duration_min": 30,
+            "questions": [
+              {
+                "statement": "∫ e^x dx = ?",
+                "options": ["e^x + C","x e^x + C","e + C","ln(x) + C"],
+                "correct_option": 1
+              },
+              {
+                "statement": "∫ 1/x dx = ?",
+                "options": ["ln(x) + C","1/x + C","x + C","e^x + C"],
+                "correct_option": 1
+              },
+              {
+                "statement": "∫ 2x dx = ?",
+                "options": ["x^2 + C","2x + C","x + C","x^2/2 + C"],
+                "correct_option": 1
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "History",
+    "description": "Global historical events and eras",
+    "chapters": [
+      {
+        "name": "Ancient Civilizations",
+        "description": "Egypt, Greece, Rome",
+        "quizzes": [
+          {
+            "title": "Egyptian Pyramids",
+            "scheduled_at": null,
+            "duration_min": 8,
+            "questions": [
+              {
+                "statement": "Great Pyramid built for?",
+                "options": ["Khufu","Tutankhamun","Ramses","Cleopatra"],
+                "correct_option": 1
+              },
+              {
+                "statement": "Location of Giza Plateau?",
+                "options": ["Nile Delta","Sinai","Chad","Sudan"],
+                "correct_option": 1
+              },
+              {
+                "statement": "Cross-section shape of pyramid is?",
+                "options": ["square","circle","triangle","rectangle"],
+                "correct_option": 3
+              }
+            ]
+          },
+          {
+            "title": "Greek City-States",
+            "scheduled_at": null,
+            "duration_min": 12,
+            "questions": [
+              {
+                "statement": "Athens was famous for?",
+                "options": ["Democracy","Empire","Mythology","Trade"],
+                "correct_option": 1
+              },
+              {
+                "statement": "Sparta was known for?",
+                "options": ["Philosophy","Military","Art","Commerce"],
+                "correct_option": 2
+              },
+              {
+                "statement": "Olympic Games began in?",
+                "options": ["776 BC","490 BC","323 BC","146 BC"],
+                "correct_option": 1
+              }
+            ]
+          },
+          {
+            "title": "Roman Empire",
+            "scheduled_at": null,
+            "duration_min": 10,
+            "questions": [
+              {
+                "statement": "Rome built on how many hills?",
+                "options": ["3","5","7","9"],
+                "correct_option": 3
+              },
+              {
+                "statement": "Pax Romana lasted approx?",
+                "options": ["50 yrs","100 yrs","200 yrs","300 yrs"],
+                "correct_option": 3
+              },
+              {
+                "statement": "Empire capital moved to?",
+                "options": ["Paris","Istanbul","Athens","Carthage"],
+                "correct_option": 2
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Medieval Era",
+        "description": "500–1500 AD",
+        "quizzes": [
+          {
+            "title": "Feudal System",
+            "scheduled_at": null,
+            "duration_min": 15,
+            "questions": [
+              {
+                "statement": "Serfs worked for?",
+                "options": ["King","Lord","Church","Peasants"],
+                "correct_option": 2
+              },
+              {
+                "statement": "Knights owed what service?",
+                "options": ["Labor","Military","Trade","Education"],
+                "correct_option": 2
+              },
+              {
+                "statement": "Manor was land owned by?",
+                "options": ["King","Lord","Knight","Serf"],
+                "correct_option": 2
+              }
+            ]
+          },
+          {
+            "title": "Crusades Overview",
+            "scheduled_at": null,
+            "duration_min": 12,
+            "questions": [
+              {
+                "statement": "First Crusade began in?",
+                "options": ["1096","1147","1204","1270"],
+                "correct_option": 1
+              },
+              {
+                "statement": "Primary goal was?",
+                "options": ["Convert East","Trade","Retake Holy Land","Map Spirit"],
+                "correct_option": 3
+              },
+              {
+                "statement": "Ended roughly by?",
+                "options": ["1100","1140","1200","1300"],
+                "correct_option": 2
+              }
+            ]
+          },
+          {
+            "title": "Black Death",
+            "scheduled_at": null,
+            "duration_min": 10,
+            "questions": [
+              {
+                "statement": "Black Death peaked in?",
+                "options": ["1347","1400","1200","1492"],
+                "correct_option": 1
+              },
+              {
+                "statement": "Caused by bacterium?",
+                "options": ["Yersinia pestis","Bacillus anthracis","Streptococcus","Vibrio cholerae"],
+                "correct_option": 1
+              },
+              {
+                "statement": "Estimated deaths?",
+                "options": ["25M","50M","75M","100M"],
+                "correct_option": 2
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Modern Era",
+        "description": "1500 AD to present",
+        "quizzes": [
+          {
+            "title": "Age of Exploration",
+            "scheduled_at": null,
+            "duration_min": 12,
+            "questions": [
+              {
+                "statement": "Columbus sailed in?",
+                "options": ["1492","1502","1512","1522"],
+                "correct_option": 1
+              },
+              {
+                "statement": "Portuguese navigator Vasco da Gama reached India in?",
+                "options": ["1498","1505","1513","1520"],
+                "correct_option": 1
+              },
+              {
+                "statement": "Magellan first circumnavigation?",
+                "options": ["1519–1522","1500–1503","1525–1528","1530–1533"],
+                "correct_option": 1
+              }
+            ]
+          },
+          {
+            "title": "World Wars",
+            "scheduled_at": null,
+            "duration_min": 14,
+            "questions": [
+              {
+                "statement": "WW I began in?",
+                "options": ["1912","1914","1916","1918"],
+                "correct_option": 2
+              },
+              {
+                "statement": "WW II ended in?",
+                "options": ["1942","1945","1950","1939"],
+                "correct_option": 2
+              },
+              {
+                "statement": "Treaty of Versailles signed in?",
+                "options": ["1918","1919","1920","1921"],
+                "correct_option": 2
+              }
+            ]
+          },
+          {
+            "title": "Cold War",
+            "scheduled_at": null,
+            "duration_min": 10,
+            "questions": [
+              {
+                "statement": "Cold War span years?",
+                "options": ["1945–1955","1947–1991","1950–1960","1961–1970"],
+                "correct_option": 2
+              },
+              {
+                "statement": "Berlin Wall fell in?",
+                "options": ["1987","1989","1991","1993"],
+                "correct_option": 2
+              },
+              {
+                "statement": "Cuban Missile Crisis year?",
+                "options": ["1960","1961","1962","1963"],
+                "correct_option": 3
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Science",
+    "description": "Fundamental scientific principles",
+    "chapters": [
+      {
+        "name": "Physics",
+        "description": "Mechanics, thermodynamics, waves",
+        "quizzes": [
+          {
+            "title": "Mechanics Basics",
+            "scheduled_at": null,
+            "duration_min": 10,
+            "questions": [
+              {
+                "statement": "Newton's first law is also called?",
+                "options": ["Inertia","Gravity","Action-Reaction","Momentum"],
+                "correct_option": 1
+              },
+              {
+                "statement": "Force = mass × ?",
+                "options": ["Velocity","Acceleration","Time","Power"],
+                "correct_option": 2
+              },
+              {
+                "statement": "SI unit of force?",
+                "options": ["Newton","Joule","Watt","Pascal"],
+                "correct_option": 1
+              }
+            ]
+          },
+          {
+            "title": "Thermodynamics",
+            "scheduled_at": null,
+            "duration_min": 12,
+            "questions": [
+              {
+                "statement": "Zeroth law deals with?",
+                "options": ["Energy","Equilibrium","Work","Heat"],
+                "correct_option": 2
+              },
+              {
+                "statement": "Second law introduces entropy?",
+                "options": ["True","False","Maybe","Depends"],
+                "correct_option": 1
+              },
+              {
+                "statement": "Unit of temperature?",
+                "options": ["Kelvin","Newton","Pascal","Joule"],
+                "correct_option": 1
+              }
+            ]
+          },
+          {
+            "title": "Waves & Optics",
+            "scheduled_at": null,
+            "duration_min": 15,
+            "questions": [
+              {
+                "statement": "Speed of light in vacuum?",
+                "options": ["3×10^6 m/s","3×10^8 m/s","3×10^10 m/s","3×10^12 m/s"],
+                "correct_option": 2
+              },
+              {
+                "statement": "Wave frequency unit?",
+                "options": ["Hertz","Pascal","Newton","Joule"],
+                "correct_option": 1
+              },
+              {
+                "statement": "Law of reflection angle in = angle out?",
+                "options": ["True","False","Only for mirrors","Only for lenses"],
+                "correct_option": 1
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Chemistry",
+        "description": "Atoms, molecules, reactions",
+        "quizzes": [
+          {
+            "title": "Atomic Structure",
+            "scheduled_at": null,
+            "duration_min": 10,
+            "questions": [
+              {
+                "statement": "Atomic number equals?",
+                "options": ["Neutrons","Protons","Electrons","Isotopes"],
+                "correct_option": 2
+              },
+              {
+                "statement": "Mass number = protons + ?",
+                "options": ["Electrons","Neutrons","Protons","Nuclei"],
+                "correct_option": 2
+              },
+              {
+                "statement": "Electron charge is?",
+                "options": ["+1","0","−1","+2"],
+                "correct_option": 3
+              }
+            ]
+          },
+          {
+            "title": "Periodic Table",
+            "scheduled_at": null,
+            "duration_min": 12,
+            "questions": [
+              {
+                "statement": "Group 1 elements are called?",
+                "options": ["Halogens","Alkali metals","Noble gases","Lanthanides"],
+                "correct_option": 2
+              },
+              {
+                "statement": "Atomic symbol of Gold?",
+                "options": ["Au","Ag","Gd","Ga"],
+                "correct_option": 1
+              },
+              {
+                "statement": "Period indicates?",
+                "options": ["Columns","Rows","Blocks","Groups"],
+                "correct_option": 2
+              }
+            ]
+          },
+          {
+            "title": "Chemical Bonds",
+            "scheduled_at": null,
+            "duration_min": 14,
+            "questions": [
+              {
+                "statement": "Ionic bonds involve electron ?",
+                "options": ["Sharing","Transfer","Excitation","None"],
+                "correct_option": 2
+              },
+              {
+                "statement": "Covalent bond is?",
+                "options": ["Ionic","Sharing","Metallic","Hydrogen"],
+                "correct_option": 2
+              },
+              {
+                "statement": "Example of polar bond?",
+                "options": ["H-H","O-H","Na-Cl","C-C"],
+                "correct_option": 2
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Biology",
+        "description": "Life sciences and organisms",
+        "quizzes": [
+          {
+            "title": "Cell Biology",
+            "scheduled_at": null,
+            "duration_min": 12,
+            "questions": [
+              {
+                "statement": "Basic unit of life?",
+                "options": ["Atom","Molecule","Cell","Organ"],
+                "correct_option": 3
+              },
+              {
+                "statement": "DNA stands for?",
+                "options": ["Deoxyribonucleic Acid","Ribonucleic Acid","Deoxyribo Acid","None"],
+                "correct_option": 1
+              },
+              {
+                "statement": "Mitochondria is the ?",
+                "options": ["Powerhouse","Brain","Ribosome","Membrane"],
+                "correct_option": 1
+              }
+            ]
+          },
+          {
+            "title": "Genetics",
+            "scheduled_at": null,
+            "duration_min": 15,
+            "questions": [
+              {
+                "statement": "Gregor Mendel studied?",
+                "options": ["Peas","Rats","Fruit flies","Corn"],
+                "correct_option": 1
+              },
+              {
+                "statement": "Gene is a segment of ?",
+                "options": ["RNA","DNA","Protein","Lipid"],
+                "correct_option": 2
+              },
+              {
+                "statement": "Chromosomes are made of?",
+                "options": ["Proteins","Lipids","DNA & protein","Carbs"],
+                "correct_option": 3
+              }
+            ]
+          },
+          {
+            "title": "Ecology",
+            "scheduled_at": null,
+            "duration_min": 10,
+            "questions": [
+              {
+                "statement": "Producer in ecosystem is?",
+                "options": ["Plant","Herbivore","Carnivore","Decomposer"],
+                "correct_option": 1
+              },
+              {
+                "statement": "Food chain starts with?",
+                "options": ["Carnivores","Herbivores","Producers","Decomposers"],
+                "correct_option": 3
+              },
+              {
+                "statement": "Carbon cycle involves?",
+                "options": ["Photosynthesis","Combustion","Respiration","All"],
+                "correct_option": 4
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+]
